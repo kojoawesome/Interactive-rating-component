@@ -28,10 +28,11 @@ align-items: center;
 }
 
 .figures{
-    border-radius: 100px;
+    border-radius: 100%;
     padding: 5%;
     background-color:#272E38 ;
     color: #52575f;
+    height: 10px;
 }
 
 .figures:hover{
