@@ -1,8 +1,8 @@
-let handshake = document.getElementsByClassName('sub');
+let handshake = document.getElementsByClassName('sub')[0];
 console.log(handshake);
 
 handshake.addEventListener('click', pager);
 
 function pager(){
-    alert('its working');
+    location.href = './Thankyou.html'
 }
