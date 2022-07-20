@@ -35,8 +35,6 @@ p{
 .numberings{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    line-height: 90px;
 }
 
 .figures{
@@ -51,12 +49,14 @@ p{
 
 .figures:hover{
     cursor: pointer;
+    background-color:#DC7C35;
+    color: #EFCFADy;
 }
 
 .sub:hover{
     cursor: pointer;
 }
-
+    
 
 button{
     padding: 20px;
@@ -64,4 +64,5 @@ button{
     letter-spacing: 5px;
     background-color:#DC7C35 ;
     color: #EFCFAD;
+    border: none;
 }
