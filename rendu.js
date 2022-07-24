@@ -3,10 +3,12 @@ let rating = document.getElementsByClassName('figures');
 console.log(rating);
 
 
+
 //storing ratings
-function keeper(){
+function keeper(e){
 
     let gloves  = []; 
+    
     for(let i = 0; i < rating.length; i++){
         if(rating[i].innerHTML == "1"){
             gloves.push("1");
@@ -25,9 +27,28 @@ function keeper(){
         }
     }
 
-    console.log(gloves);
+    console.log(e.target.id);
+
+    if (e.target.id == 'num1'){
+        return 1;
+    }
+    else if (e.target.id == 'num2'){
+        return 2;
+    }
+    else if (e.target.id == 'num3'){
+        return 3;
+    }
+    else if (e.target.id == 'num4'){
+        return 4;
+    }
+    else if (e.target.id == 'num5'){
+        return 5;
+    }
+
 
 }
+
+console.log(keeper);
 
 // event for storing ratings 
 for(let i = 0; i < rating.length; i++){
@@ -49,7 +70,7 @@ function pager(){
 }
 
 //exporting data
-export {gloves};
+export {keeper};
 
 
 
