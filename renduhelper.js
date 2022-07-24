@@ -1,10 +1,10 @@
 import { keeper} from "./rendu";
 
-let RatingDisplay = document.querySelector('#display');
+let RatingDisplay = document.getElementById('display');
 console.log(RatingDisplay);
 
-if ( keeper == 'num1'){
-    RatingDisplay.innerHTML = "You selected 1 out of 5"
-}
+// if ( keeper == 'num1'){
+//     RatingDisplay.inner = keeper;
+// }
 
-console.log(keeper);
+console.log('ere');

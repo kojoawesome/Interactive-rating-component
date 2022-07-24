@@ -27,10 +27,11 @@ function keeper(e){
         }
     }
 
-    console.log(e.target.id);
+    // console.log(e.target.id);
 
     if (e.target.id == 'num1'){
-        return 1;
+        console.log('true');
+        return ("You selected 1 out of 5");
     }
     else if (e.target.id == 'num2'){
         return 2;
@@ -59,7 +60,7 @@ for(let i = 0; i < rating.length; i++){
 // displaying on next page
 
 let handshake = document.getElementsByClassName('sub')[0];
-console.log(handshake);
+// console.log(handshake);
 
 
 handshake.addEventListener('click', pager);

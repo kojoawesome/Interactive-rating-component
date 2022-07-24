@@ -3,6 +3,7 @@ display: flex;
 height: 100vh;
 justify-content: center;
 align-items: center;
+font-family: 'Roboto Flex', sans-serif;
 }
 
 
@@ -29,12 +30,17 @@ align-items: center;
 }
 
 p{
-    line-height: 22px;
+    line-height: 32px;
 }
 
 .numberings{
     display: flex;
     justify-content: space-between;
+}
+
+.figures:nth-child(4){
+    background-color: #b8b8b8;
+    color: white;
 }
 
 .figures{
@@ -50,11 +56,13 @@ p{
 .figures:hover{
     cursor: pointer;
     background-color:#DC7C35;
-    color: #EFCFADy;
+    color: #EFCFAD;
 }
 
 .sub:hover{
     cursor: pointer;
+    background-color: white;
+    color: #DC7C35;
 }
     
 
